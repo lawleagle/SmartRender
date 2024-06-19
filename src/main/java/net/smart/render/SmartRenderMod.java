@@ -19,6 +19,7 @@ package net.smart.render;
 
 import java.lang.reflect.*;
 
+import net.smart.Tags;
 import cpw.mods.fml.common.*;
 import cpw.mods.fml.common.Mod.*;
 import cpw.mods.fml.common.event.*;
@@ -27,7 +28,7 @@ import cpw.mods.fml.common.gameevent.TickEvent.*;
 import net.smart.render.statistics.*;
 import net.smart.utilities.*;
 
-@Mod(modid = "SmartRender", name = "Smart Render", version = "@VERSION@", dependencies = "required-after:PlayerAPI@[1.3,)")
+@Mod(modid = "SmartRender", name = "Smart Render", version = Tags.VERSION, dependencies = "required-after:PlayerAPI@[1.3,)")
 public class SmartRenderMod
 {
 	private static boolean addRenderer = true;

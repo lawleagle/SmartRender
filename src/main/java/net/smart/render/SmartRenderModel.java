@@ -130,7 +130,7 @@ public class SmartRenderModel extends SmartRenderContext
 			for(Object childModel : original.childModels)
 				local.addChild((ModelRenderer)childModel);
 		if(original.cubeList != null)
-			for(Object cube : original.cubeList)
+			for(ModelBox cube : original.cubeList)
 				local.cubeList.add(cube);
 		local.mirror = original.mirror;
 		local.isHidden = original.isHidden;
