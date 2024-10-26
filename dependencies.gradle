@@ -36,6 +36,6 @@
 dependencies {
     runtimeOnlyNonPublishable 'com.github.GTNewHorizons:NotEnoughItems:2.5.4-GTNH:dev'
 
-    implementation 'com.github.lawleagle:PlayerAPI:1.4.1-law'
-    implementation 'com.github.lawleagle:RenderPlayerAPI:1.4-law'
+    implementation files('jars/PlayerAPI-1.4.1-manu-dev.jar')
+    implementation files('jars/RenderPlayerAPI-1.4-manu-dev.jar')
 }
